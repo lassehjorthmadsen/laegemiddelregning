@@ -1,0 +1,62 @@
+---
+title: "Lægemiddelregning"
+author: "Lasse Hjorth Madsen"
+date: "11/11/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Hvad er lægemiddelregning?
+Lægemiddelregning er bare gange og division, så det er nemt:
+
+#### Eksempel
+To børn skal dele otte stykker slik. Hvor mange stykker er der til hver?
+$$
+\frac{8}{2} = 4
+$$
+Altså fire stykker slik til hvert barn, eller fire stykker slik *per* barn.
+
+I lægemiddel er enhederne særligt vigtige, så dem skal vi huske at tage med.  Vi kender det fra mange hverdagseksempler:
+
+#### Eksempel
+En bil kører 150 km på 3 timer. Hvor hurtigt har den kørt i gennemsnit?
+$$
+\frac{150\:km}{3\:t} = 50\:\frac{km}{t}
+$$
+Som vi også nogle gange skriver sådan: $50\:km/t$
+
+Det interessante er, at *enhederne* sådan set også bare er et divisionsstykke. På samme måde som vi siger $\frac{50}{3}$ siger vi også bare $\frac{km}{t}$
+
+
+Det er vigtigt i lægemiddelregning, fordi vi skal huske om vi tænker på milliliter ($ml$) eller milligram ($mg$); liter ($l$) eller gram ($g$); sekunder ($s$) eller minutter ($m$); eller noget helt fjerde.
+
+Hvis vi var lige så omhyggelige med slik til børnene som med lægemiddelregning, ville vi også skrive:
+
+$$
+\frac{8\:stykker\:slik}{2\:børn} = 2\:\frac{stykker\:slik}{barn}
+$$
+Grunden til, at vi normalt ikke er så pedantiske med slik og børn er, at begge dele som regel er almindelige tælletal: Det er altid i samme enhed; vi har ikke milli-børn eller deci-slik. Det ville være anderledes, hvis vi beregnede en bestemt mængde slik til hvert barn baseret på *vægt*. Så ville det være vigtig om rationen var $100 \frac{g}{barn}$ eller $100 \frac{kg}{barn}$.  
+
+## Koncentrationer
+
+I lægemiddelregning er vi ofte interesseret i koncentationer, vægte og volumener.
+
+Koncentrationer fortæller, hvor meget stof der er i en given mængde, altså en vægt (fx $g$ eller $mg$) per volume (fx $ml$ eller $l$). Derfor er enheden typisk $\frac{mg}{ml}$
+
+
+#### Eksempel
+Hvis der er 20 mg flydende paracetamol i skefuld med 10 ml, så er koncentrationen
+$$
+\frac{20\:mg}{10\:ml} = 2\: \frac{mg}{ml} = 2\:mg/ml
+$$
+
+Hvilket man læser tom to milligram *per* milliliter. "Per" er som regel dagligdagssprog for "divideret med".
+
+## Almindelige omregninger
+## Dagligdagseksempler
+## Sjove enheder
+
+
